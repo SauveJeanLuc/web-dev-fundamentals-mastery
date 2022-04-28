@@ -1,0 +1,52 @@
+<!--
+    CSS selectors can be divided into 5.
+
+    - Simple selectors (based on name, id , class)
+    - Combinator selectors (based on relationship btn them)
+    - Pseudo-class selectors (based on certain state)
+    - Pseudo-elements selectors (select part of element)
+    - Attribute selectors (based on attribute value)
+
+-->
+    <!--
+        Content: Home To Selectors
+    -->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+
+            *{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+
+            p{
+                text-align: center;
+                color: blue;
+            }
+            #separateBlue{
+                color: rgb(74, 74, 234);
+            }
+            .firstTwo{
+                padding: 10px 10px;
+                background-color: rgb(217, 138, 138);
+                margin-left: 256px;
+                width: 200px;
+                height: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p class="firstTwo">
+            First Design
+        </p>
+        <p id="separateBlue" class="firstTwo">
+            Second Design
+        </p>
+        <p>
+            Third Design
+        </p>
+    </body>
+</html>
