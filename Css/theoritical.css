@@ -1,0 +1,17 @@
+/*
+    A Theoritical Approach To CSS
+    
+    CSS in full is Cascading Style Sheet
+
+    It describes how HTML elements should be displayed
+
+    h1 {
+        color: blue;
+        font-size: 12px;
+    }
+
+    h1 --> Selector
+    color --> Property
+    blue --> Value
+    
+*/
