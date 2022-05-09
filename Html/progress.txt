@@ -1,2 +1,2 @@
-Before: Paragraphs
-Latest: Quotations
+Before: Images
+Latest: Tables (Table Sizes)
