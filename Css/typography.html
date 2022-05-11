@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Typography
+        </title>
+        <style>
+            .formatted{
+                padding: 10px;
+                border: 1px solid black;
+                max-width: 600px;
+                font-size: 19px;
+                font-family: sans-serif;
+            }
+
+            .formatted h1 {
+                color: green;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            .formatted a{
+                color: rgb(67, 198, 242);
+                text-decoration: none;
+            }
+            .formatted p {
+                text-indent: 50px;
+            }
+
+            .textdec #overline{
+                text-decoration: overline;
+            }
+            .textdec #line-through{
+                text-decoration: line-through;
+            }
+            .textdec #underline{
+                text-decoration: underline;
+            }
+            .textdec #bothlines{
+                text-decoration: overline underline;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="formatted">
+            <h1>TEXT FORMATTING</h1>
+            <p>
+                This text is styled with some of the text
+                 formatting properties. The heading uses 
+                 the text-align, text-transform, and color 
+                 properties. The paragraph is indented, 
+                 aligned, and the space between characters 
+                 is specified. The underline is removed from 
+                 this colored  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_text">"Try it Yourself"</a>  link.
+            </p>
+        </div>
+
+        <div class="textdec">
+            <p id="overline">Text decoration</p>
+            <p id="line-through">Text decoration</p>
+            <p id="underline">Text decoration</p>
+            <p id="bothlines">Text decoration</p>
+        </div>
+
+    </body>
+
+</html>
