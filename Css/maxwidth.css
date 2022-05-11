@@ -1,0 +1,12 @@
+/*
+
+    maxwidth: 500 px;
+
+    if u're using width alone, 
+    and browser window gets to be smaller than specified width,
+    An horizontal scrollbar appears.
+
+    if both width and max-width are used
+    and width is larger than max-width then width property is ignored.  
+
+*/
