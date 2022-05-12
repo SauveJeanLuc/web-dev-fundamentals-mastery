@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Table Colspan and Rowspan </title>
+        <style>
+            table:not(.zebra, .zebra-vertical) {
+                border-collapse: collapse;
+                margin-top: 50px;
+            }
+
+            table:not(.zebra, .zebra-vertical), th:not(.zebra, .zebra-vertical), td:not(.zebra) {
+                border: 1px solid black;
+            }
+
+            .zebra, .zebra-vertical {
+                margin-top: 50px;
+                border-collapse: collapse;
+                
+            }
+
+            .zebra , .zebra-vertical , .zebra td,  .zebra-vertical td,  .zebra th,  .zebra-vertical th {
+                padding-right: 100px;
+                border: 0.5px solid white;
+            }
+
+            .zebra tr:nth-child(even){
+                background-color: #D6EEEE;
+            }
+
+            .zebra-vertical td:nth-child(even):hover {
+                background-color: #D6EEEE;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <table>
+            <caption> First Table</caption>
+            <tr>
+                <th colspan="2">NAME</th>
+                <th>Dummy Data</th>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption> Second Table</caption>
+            <tr>
+                <th rowspan="3">APRIL</th>
+                <th>Dummy Data</th>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption> Third Table</caption>
+            <tr>
+                <th colspan="3">2022</th>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">FIESTA</td>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+            </tr>
+            <tr>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+                <td>Dummy Data</td>
+            </tr>
+        </table>
+
+        <table class="zebra">
+            <caption> Zebra Stripes </caption>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+
+        </table>
+
+        <table class="zebra-vertical">
+            <caption> Zebra Vertical Stripes </caption>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>
