@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        .nav-list{
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 3px;
+        }
+        .nav-list li:nth-of-type(1){
+            flex-grow: 9;
+        }
+        .nav-item{
+            list-style: none;   
+            flex-grow: 1;
+        }
+        .nav-item a{
+            font-size: 18px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#">
+                    Website Logo
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn-primary">
+                    <a href="#">Donate</a>
+                </button>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
